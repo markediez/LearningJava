@@ -18,3 +18,10 @@ identifier - no spaces, can't start as a digit, contains alphanumeric, $, and _
     - _value
     - $value
     - value
+
+Java is case sensitive
+    - value is not the same as Value
+
+To run our java program
+    - compile by: javac <fileName>.java
+    - run by: java <fileName>

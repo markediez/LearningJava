@@ -1,4 +1,4 @@
-Class names begin with a capital letter &
+Class names must be an identifier that begins with a capital letter &
     must capitalize the first letter of each word
     - SampleClassName.java
 
