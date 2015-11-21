@@ -1,0 +1,14 @@
+ARITHMETIC
++   ~ add
+-   ~ subtract
+/   ~ divide
+*   ~ multiply
+%   ~ remainder / modulus
+
+RELATIONAL
+==  ~ is equal
+!=  ~ is not equal
+>=  ~ is greater than or equal to
+<=  ~ is less than or equal to
+>   ~ is greater than
+<   ~ is less than

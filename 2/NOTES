@@ -38,5 +38,6 @@ variables
     o int sum
     o int number1 = 3
 
-
+if statements
+    - like a fork on the road, if the statement is true, then do this
 

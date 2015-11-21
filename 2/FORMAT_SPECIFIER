@@ -1,3 +1,4 @@
 %s  - string
 %n  - like \n
 %d  - int
+%f  - float
