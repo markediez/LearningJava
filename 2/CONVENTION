@@ -2,4 +2,10 @@ Class names must be an identifier that begins with a capital letter &
     must capitalize the first letter of each word
     - SampleClassName.java
 
+Variable names must be an identifier that begins with a lowercase letter
+    and capitalize the first letter of each word
+    - An exception is for constants that are in all-caps
+
+imports must be written at the very top prior to initializing the class
+
 

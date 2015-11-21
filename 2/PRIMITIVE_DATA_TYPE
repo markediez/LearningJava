@@ -1,0 +1,10 @@
+byte    - holds whole numbers ~ 8bits   ~ -128 to 127  
+short   - holds whole numbers ~ 16      ~ 32k
+int     - holds whole numbers ~ 32      ~ 2billion
+long    - holds whole numbers ~ 64      ~ really big number
+
+double  - holds real numbers  ~ 64
+float   - holds real numbers  ~ 32
+
+char    - holds a single character ~ 16
+boolean - holds true / false

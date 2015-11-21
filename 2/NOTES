@@ -25,3 +25,18 @@ Java is case sensitive
 To run our java program
     - compile by: javac <fileName>.java
     - run by: java <fileName>
+
+import
+    - reusing predefined classes, code other people created
+
+variables
+    - a location in memory that can be used later in the program
+    - variableType ~ what kind of variable: String, int, ...
+    - variableName ~ used to access the variable
+    - variableType variableName ~ declares the variable
+    - variableName = value  ~ put value in the variable
+    o int sum
+    o int number1 = 3
+
+
+
