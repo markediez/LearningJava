@@ -11,8 +11,6 @@ Comments are used for readability
 "Keywords" or "reserved words" are only for Java and always lower case
     - public, class, 
 
-Java files must have a class of a similar name
-    - Welcome1.java must have a public class Welcome1
 
 identifier - no spaces, can't start as a digit, contains alphanumeric, $, and _
     - _value

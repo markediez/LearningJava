@@ -1,11 +1,36 @@
-Class names must be an identifier that begins with a capital letter &
-    must capitalize the first letter of each word
-    - SampleClassName.java
+/**
+ * Author: <authorName>
+ * Date: <currDate>
+ * <info on the program>
+ */
 
-Variable names must be an identifier that begins with a lowercase letter
-    and capitalize the first letter of each word
-    - An exception is for constants that are in all-caps
+ // imports go here
+ import java.util.Scanner;
 
-imports must be written at the very top prior to initializing the class
+ /* 
+  * File class goes after import
+  * ClassName in Proper case (HasToGoLikeThis)
+  * ClassName must be similar to the FileName.java without the .java
+  */
+ public class ClassName {
+ 		/*
+ 		 * methodName (main) has to be in camelCase (hasToGoLikeDis)
+ 		 */
+ 	public static void main(String[] args) {
+ 		/*
+ 		 * variableNames are in camelCase (hasToGoLikeDis)
+ 		 */
+ 		Scanner scan = new Scanner(System.in);
 
+ 		int numberOne;
 
+ 		System.out.print("Enter a number: ");
+ 		numberOne = scan.nextInt();
+
+ 		System.out.printf("You entered %d%n", numberOne);
+ 	}
+ }
+
+ // NOTE: ClassNames, methodNames, and variableNames are identifiers.
+ //			they must be alphanumeric, $, and _
+ //			THEY MUST NOT START WITH A DIGIT
