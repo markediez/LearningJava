@@ -7,4 +7,6 @@ ACCESS MODIFIERS
 ???
 	new	- creates a new object of the specified class
 
+???
+    static - static methods can be called without initializing the object
 

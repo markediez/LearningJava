@@ -44,3 +44,22 @@ Driver Class
 
 arguments
 	- used to accomodate the parameter list
+    - must have match the parameter list's requirement
+
+Compile
+    - must have Driver and Non Driver classes
+
+UML Diagram
+    - used to summarize class properties and methods
+    - top compartment has class name
+    - middle compartment has properties
+    - bottom compartment has methods
+    - +/- indicate public / private
+    ===================================
+    Account
+    ===================================
+    - name: String
+    ===================================
+    + setName(name: String)
+    + getName(): String
+    ===================================
