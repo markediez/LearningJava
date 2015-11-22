@@ -63,3 +63,17 @@ UML Diagram
     + setName(name: String)
     + getName(): String
     ===================================
+
+import
+    - implicit imports like java.lang = we can use System and String
+    - explicit imports like java.util.Scanner needed to use Scanner
+    - no need to import things in the same directory / package
+    - can bypass importing via 
+        java.util.Scanner scn = new java.util.Scanner(System.in);
+
+private: using getters and setters
+    - with public, programmers can input invalid data
+    - using getter and setter
+        ~ get data in desired format, e.g. getGrade() return A instead of 90
+        ~ check valid data to set and return if invalid data
+
