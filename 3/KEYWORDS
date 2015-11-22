@@ -1,0 +1,10 @@
+Keywords or "reserved" words are lowercase words reserved for Java
+
+ACCESS MODIFIERS
+    public  - access given to methods and users of the file
+    private - access to the methods of the same file only
+
+???
+	new	- creates a new object of the specified class
+
+

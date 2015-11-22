@@ -1,0 +1,46 @@
+Creating Own Class & Methods
+    - is creating a new type
+    - instance variables
+        o keeps data for the class
+        o located inside the class but outside the methods
+    - methods
+        o behaviors a class can do
+        o first line is the method header
+        o parameter list inside the parenthesis
+        o return type after "public" / "private"
+        o "void" does not return anything
+
+        =======================================
+        <accessModifier> <returnType> <methodName>(<parameterList) {
+        	// any variables named here, are local
+        	// they only exist in here
+        	// var. name @ parameterList are local var. too
+
+        	// method is enclosed by the braces
+        }
+        =======================================
+        public void setName(String name) { 
+        	String tmp = name;	// local var. ex. *unnecessary
+        	
+        	// local var. take precedence over global var
+        	// this - indicates to use the global var. "name"
+        	this.name = tmp;
+        }
+        =======================================
+        public String getName() {
+        	// returns to the caller the String value of this.name
+        	return this.name;
+        }
+       	=======================================
+
+Use BigDecimal instead of double / int for monetary values
+A Java app needs a main() in the class, else its just a Java file
+
+Driver Class
+	- the class with the main method that uses other files w/o main
+
+. (dot separator)
+	- used to access the methods of a public properties of a class
+
+arguments
+	- used to accomodate the parameter list
