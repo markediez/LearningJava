@@ -7,23 +7,40 @@ import java.util.Scanner;
 
 public class AccountTest {
 	public static void main(String[] args) {
-		// Get input with scanner
-		Scanner scn = new Scanner(System.in);	// argument in scanner tells
-												// where to get input from
-												// System.in = the keyboard
+		Account acc1 = new Account("Jane Green", 50.00);
+		Account acc2 = new Account("John Blue", -7.14);
 
-		// Initialize an account
-		Account myAccount = new Account(); // () is required after Account
+		// display
+		System.out.printf("%s balance: %.2f%n", 
+			acc1.getName(), acc1.getBalance());
+		System.out.printf("%s balance: %.2f%n", 
+			acc2.getName(), acc2.getBalance());
 
-		// Show inital values of myAccount
-		System.out.printf("Initial name is: %s%n%n", myAccount.getName());
+		// scanner for input
+		Scanner input = new Scanner(System.in);
 
-		// prompt for and read name
-		System.out.println("Please enter the name:");
-		String theName = scn.nextLine();
-		myAccount.setName(theName);
-		System.out.println(); // output blank line
+		System.out.print("%nEnter deposit ammount for acc1: ");
+		double depositAmount = input.nextDouble();
+		System.out.printf("%nadding %.2f to acc1 balance%n%n",
+			depositAmount);
+		acc1.deposit(depositAmount);
 
-		System.out.printf("Name in object myAccount is %n%s%n", myAccount.getName());
+		// display
+		System.out.printf("%s balance: %.2f%n", 
+			acc1.getName(), acc1.getBalance());
+		System.out.printf("%s balance: %.2f%n", 
+			acc2.getName(), acc2.getBalance());
+
+		System.out.print("%nEnter deposit ammount for acc2: ");
+		depositAmount = input.nextDouble();
+		System.out.printf("%nadding %.2f to acc2 balance%n%n",
+			depositAmount);
+		acc2.deposit(depositAmount);
+		
+		// display
+		System.out.printf("%s balance: %.2f%n", 
+			acc1.getName(), acc1.getBalance());
+		System.out.printf("%s balance: %.2f%n", 
+			acc2.getName(), acc2.getBalance());
 	}
 }

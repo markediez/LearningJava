@@ -60,6 +60,7 @@ UML Diagram
     ===================================
     - name: String
     ===================================
+    <<constructor>> Account(name: String)
     + setName(name: String)
     + getName(): String
     ===================================
@@ -77,3 +78,26 @@ private: using getters and setters
         ~ get data in desired format, e.g. getGrade() return A instead of 90
         ~ check valid data to set and return if invalid data
 
+Primitive vs Reference Types
+    - int, char, boolean, etc. are primitive types that store 1 value
+    - anything that isn't a primitive is a reference type
+    - instance variables are initialized to 0 / false
+    - reference Types are initialized to null
+
+Class Constructor
+    - Method used to initialize members of a class
+    - Name must be the same as the class
+    - Cannot return values
+    - When no explicit constructor is made, java makes an empty one
+
+
+float vs double
+    - float holds up to 7 significant digits
+    - double holds up to 15 significant digits
+
+local variable
+    - is not initialized automatically
+
+methods
+    - use it to replace duplicate code reduce size and increase
+            maintainability of the program
