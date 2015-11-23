@@ -1,0 +1,29 @@
+3.5
+    - "new" creates a new object of the specified class
+    	o requests memory from the system to store the object
+    	o calls the class's constructor to initialize the object
+
+3.6
+	- A default constructor is a constructor built by Java when an
+		explicit constructor is not made
+	- instance variables are initialized to 0 / false / null
+
+3.7
+	- Instance variables exist within the class but out of methods
+	- They hold data for the object
+
+3.8
+	- System and String are in the package java.lang that is
+		automatically imported in every Java app
+
+3.9
+	- They use the full address of Scanner
+		o java.util.Scanner = new java.util.Scanner(System.in);
+
+3.10
+	- instance variables are usually private to avoid invalid values.
+		Getters and Setters provide access to the variable
+		with the capability of validating proper value input
+		and modifying how the variable is when get
+
+3.11

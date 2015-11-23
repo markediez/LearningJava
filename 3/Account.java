@@ -24,6 +24,21 @@ public class Account {
 			balance = balance + amount;
 	}
 
+	// 3.11 exercise
+	public void withdraw(double amount) {
+		// Validate proper amount
+		if(amount > balance)
+			System.out.println("Withdrawal amount exceeded account balance");
+
+		if(amount > balance)
+			amount = 0;
+
+		if(amount < 0)
+			amount = 0;
+
+		balance = balance - amount;
+	}
+
 	// method to set the name in the object
 	public void setName(String name) {
 		this.name = name;
