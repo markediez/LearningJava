@@ -1,0 +1,4 @@
+Going through this chapter, I have learned how to use printf.
+I also learned the existence of placeholder values such as %s and %c.
+Finally, by looking at appendix D, I know now all the primitive types,
+    their uses, and their size in bits.

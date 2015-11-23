@@ -1,0 +1,10 @@
+Going through this chapter, I learned about UML diagrams.
+I would give it a go, but I'm not sure which program to get.
+I also realized what the keyword "new" does (asks for memory from the system
+        for my object)
+
+I now know how other reference type like String can be used b/c
+    the java.lang library is automatically imported
+
+Finally, I now know that instance variables are already intialized to
+    0 / false / or null.
