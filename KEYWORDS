@@ -10,3 +10,10 @@ ACCESS MODIFIERS
 ???
     static - static methods can be called without initializing the object
 
+CONTROL STATEMENTS
+    if      - single-selection statement
+    else    - after an initial if for a double-selection statement
+    switch  - multiple-selection statement
+    while   - repeats a block of code zero or more times
+    for     - repeats a block of code zero or more times
+    do...while - repeats a block of code one or more times

@@ -1,0 +1,104 @@
+Algorithm
+    - a procedure for solving a problem through 
+        o actions to execute and
+        o order in which to execute such actions
+
+Pseudocode
+    - informal langauge to help develop algorithms
+    - used to plan out the code prior to actually programming it
+
+Control Structures
+    - sequential execution
+        o each line of code executed in order of which they are written
+    - transfer of control
+        o next statement is not necessarily the next one in sequence
+        o done via "goto" keyword before
+    - structured programming
+        o done for "goto-less" programming
+        o programming using control statements:
+            - sequence structure
+            - selection structure
+            - repetition structure
+
+Sequence Structure
+    - execute code in sequence unless told otherwise
+
+Selection Statement
+    - if statement
+        o single-selection statement
+        o ignores or does a single (group of) actions if true / false
+        o if(<this condition is true>)
+            // do this code
+    - if else statement
+        o double-selection statement
+        o selects between 2 different (groups of) actions if true / false
+        o if(<this condition is true>)
+            // do this code
+          else
+            // if the condition is false, do this code
+        o can nest if - else statements
+            if (<this condition is true>)
+                // do this
+            else
+                if(<this condition is true>)
+                // do this
+                .
+                .
+                .
+            else
+                // do this
+    - switch statement
+        o multiple-selections statement
+        o selects among many (groups of) actions
+
+Repetition Statement
+    - repeats a sequence of statements as long as the condition is true
+    - "while" and "for"
+        o repeats a block of code zero or more times
+        o while(<statement is true>) {
+            // keep doing this code
+            // make sure the statement turns false somehow
+          }
+        o for (intitalValue; booleanExpression; step) {
+            // do this code
+          }
+    - do ... while
+        o repeats a block of code one or more times
+
+Blocks of Code
+    - a block of code are statements that exist in between {}
+    - use braces {} to do more than one action in a if statement
+        and avoid the dangling else problem
+    - if (statement) {
+        // do code
+        // all of this code
+        // yes even this
+      }
+
+Conditional Operator (?:)
+    - only ternary operator
+    - <boolean expression> ? <code if true> : <code if false>
+
+Counter-Controlled Repetition
+    - has a control variable called a counter
+    - aka definite repetition b/c the number of repetition is
+        known prior to starting the loop
+
+Sentinel Controlled Repetition
+    - when the number of repetition is not yet known
+    - sentinel value ~ indicates "end of data entry"
+    - indefinite repetition b/c the number of reptition is not known
+        prior to the loop
+
+Integer Division
+    - 17/10 is technically 1.7, but with int it just makes it 1
+        it does not round.
+
+Arithmetic Overflow
+    - happens if the value of int, long, etc. becomes bigger
+        than what it can hold. Ex. max value for a byte is +127,
+        so when we do "byte a = 120 + 8", we will get the overflow error
+    - Integer.MAX_VALUE and Integer.MIN_VALUE gives the int range 
+UML
+    - [/] -> [add grade to total] -> [add 1 to counter] -> [[/]]
+    - like pseudocode, can represent algorithms w/o actual code

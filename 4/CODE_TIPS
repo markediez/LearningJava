@@ -1,0 +1,12 @@
+Top down stepwise-refinement
+    - Using pseudocode, write down the program from general to specific
+        o Determine the class average for the quiz
+                        | refine
+                        v
+        o Initialize variables
+          Input, sum and count the quiz grades
+          Calculate and print the class average
+                        | refine
+                        v
+        o           .........
+        o do this until you pretty much have the program in pseudocode
