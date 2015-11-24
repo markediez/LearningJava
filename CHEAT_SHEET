@@ -25,7 +25,8 @@ char    - holds a single character ~ 16
 boolean - holds true / false
 
 LIBRARIES
-java.util.Scanner	- Scanner, used for taking input
+java.util.Scanner		- Scanner, used for taking input
+GUI LIBRARIES @ GUI_NOTES
 
 
 OPERATOR PRECEDENCE

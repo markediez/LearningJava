@@ -1,0 +1,20 @@
+CH 3
+javax.swing.JOptionPane
+	- Used for GUI Pop Ups
+
+CH 4
+Java Coordinate System
+	- top left corner is (0,0)
+	- +x is horizontal moving right
+	- +y is vertical moving down
+	- Coordinates measured in pixels
+
+java.awt.Graphics
+	- used to draw texts and shapes to the screen
+
+javax.swing.JPanel
+	- Object to put on the JFrame that consists of things to show
+
+javax.swing.JFrame
+	- holds JPanels and shows it in the screen
+	- the blank canvas
