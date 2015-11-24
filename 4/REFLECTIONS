@@ -1,0 +1,8 @@
+Through this chapter I now understand the use of Graphics,
+    I've used it before going through YouTube tutorials on 
+    creating Java 2D platformer games but this soldifies such knowledge.
+    It is used to draw text and shapes on the screen.
+
+I also learned that each JPanel calls on paintComponent which is why
+    it can draw stuff. It is so cool to understand things that use to
+    be in the "black box."
