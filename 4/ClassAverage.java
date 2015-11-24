@@ -18,7 +18,7 @@ public class ClassAverage {
 		// processing phase
 		while(gradeCounter <= 10) {
 			System.out.print("Enter grade: ");
-			int grade = input.nextInt();
+			int grade = scn.nextInt();
 			total = total + grade;
 			gradeCounter = gradeCounter + 1;
 		}

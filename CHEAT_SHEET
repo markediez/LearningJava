@@ -41,3 +41,6 @@ RELATIONAL OPERATORS
 <=  ~ is less than or equal to
 >   ~ is greater than
 <   ~ is less than
+
+CAST OPERATORS
+(primitive/reference type) <variableName>

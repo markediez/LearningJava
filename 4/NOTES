@@ -99,6 +99,27 @@ Arithmetic Overflow
         than what it can hold. Ex. max value for a byte is +127,
         so when we do "byte a = 120 + 8", we will get the overflow error
     - Integer.MAX_VALUE and Integer.MIN_VALUE gives the int range 
+
+Operators
+    - unary takes only one operand e.g. cast operator
+    - binary takes only two operands e.g relational operators
+    - ternary takes three operands e.g. ?:
+
+Floating Number Precision
+    - inaccurate regardless if float or double
+    - double preferred over float b/c more accurate
+    - BigDecimal a more precise floating-point number
+
+Compound Assignment Operator
+    - variable = variable operator expression;
+            can be written as
+    - variable operator= expression
+            therefore
+    - c = c + 3;
+            can be written as
+    - c += 3;
+            woohooo less typing
+
 UML
     - [/] -> [add grade to total] -> [add 1 to counter] -> [[/]]
     - like pseudocode, can represent algorithms w/o actual code
