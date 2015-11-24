@@ -27,6 +27,17 @@ boolean - holds true / false
 LIBRARIES
 java.util.Scanner	- Scanner, used for taking input
 
+
+OPERATOR PRECEDENCE
+++	--
+++	--	+	-
+*	/	%
++	-
+<	<=	>	>=
+==	!=
+?:
+=	+=	-=	*=	/=	%=
+
 ARITHMETIC OPERATORS
 +   ~ add
 -   ~ subtract

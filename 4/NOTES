@@ -120,6 +120,12 @@ Compound Assignment Operator
     - c += 3;
             woohooo less typing
 
+Increment and Decrement Operator
+    - increment ++ (c++ instead of c += 1)
+    - decrement -- (c-- instead of c -= 1)
+    - prefix ++c, adds then uses
+    - postfix c++, uses then adds
+
 UML
     - [/] -> [add grade to total] -> [add 1 to counter] -> [[/]]
     - like pseudocode, can represent algorithms w/o actual code
