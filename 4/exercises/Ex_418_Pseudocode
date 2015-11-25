@@ -2,9 +2,62 @@
 Top
 ======================================================================
 
-Create a credit limit calculator the tells the user whether or not
-they have exceeded their limit
+// Create a credit limit calculator the tells the user whether or not
+// they have exceeded their limit
 
 ======================================================================
 Refinement #1
 ======================================================================
+
+// Create class Person
+
+// in PersonTest.java prompt for necessary data
+
+// output if they exceeded their balance
+
+======================================================================
+Refinement #2
+======================================================================
+
+// Person.java
+	// Instance Variables
+	// Constructor
+	// displayBalance
+	// getter and setters
+
+// PersonTest.java
+	// prompt for data
+	// intialize person with data
+	// user input this months expenses
+	// output if their balancee and if they exceeded their limit
+
+======================================================================
+Refinement #3
+======================================================================
+// Person.java
+	// instance var
+		// acc #, balance, totalMonthExpense, 
+		// totalCredit, credLimit
+
+	// constructor
+		// initialize acc#, initial balance, creditLimit
+
+	// methods
+		// method to add totalMonthExpense
+		// method to display status
+		// method to add credit
+		// getters and setters -- as needed
+
+// PersonTest.java
+	// import scanner
+
+	// initialize scanner
+
+	// prompt for acc #, initial balance, and creditLimit
+	// initialize Person
+
+	// while the sentinel value is not entered
+		// prompt for expenses
+		// increase totalMonthExpense of person
+
+	// displayStatus - balance and credit standing
