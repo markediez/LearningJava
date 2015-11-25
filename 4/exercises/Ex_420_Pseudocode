@@ -1,0 +1,70 @@
+======================================================================
+Top
+======================================================================
+
+// Create a salary calculator
+
+======================================================================
+Refinement #1
+======================================================================
+
+// Make an employee class
+// prompt for data for the employee
+// output the salary of employee(s)
+
+======================================================================
+Refinement #2
+======================================================================
+
+// Employee.java
+	// instance var
+	// double hoursWorked
+	// double ratePerHour;
+
+	// constructor takes in hoursWorked and ratePerHour
+
+	// methods 
+		// method to get salary
+			// regular pay + overtime pay
+
+// EmployeeTest.java
+	// import scanner
+
+	// intialize var, hoursWorked and ratePerHour, and counter
+	// initialize scanner
+
+	//	while the count is not < 3
+		// prompt for hoursWorked for each employee
+		// prompt for ratePerHour for each employee
+		// add counter
+
+	// output gross weekly salary for 3 employees
+
+======================================================================
+Refinement #3
+======================================================================
+// Employee.java
+	// instance var
+	// double hoursWorked
+	// double ratePerHour;
+
+	// constructor takes in hoursWorked and ratePerHour
+
+	// methods 
+		// method to get salary
+			// regular pay + overtime pay
+
+	// EmployeeTest.java
+	// import scanner
+
+	// initialize scanner
+
+	// call method to initilize 3 employees
+		
+
+	// output gross weekly salary for 3 employees
+
+	// method to get employee info
+		// prompt for hoursWorked for each employee
+		// prompt for ratePerHour for each employee
+		// return employee

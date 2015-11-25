@@ -1,0 +1,43 @@
+======================================================================
+Top
+======================================================================
+
+Create a sales comission calculator
+
+======================================================================
+Refinement #1
+======================================================================
+
+// initialize var
+// calculate gross sell
+// calculate and display this week's income
+
+======================================================================
+#Refinement #2
+======================================================================
+
+// initialize income and gross sale
+// while sentinel value is not used
+	// get sale
+	// add up gross
+
+// calculate income
+// display income
+
+======================================================================
+Refinement #3
+======================================================================
+
+// import Scanner
+
+// initialize scanner
+// initialize double income and grossSale
+
+// initialize sentinel var
+//	while sentinal var is not the value
+	// prompt for a sale
+	// get sale
+	// add sale to gross sale
+
+// calculate income [200 + .9 * grossSale]
+// display income
