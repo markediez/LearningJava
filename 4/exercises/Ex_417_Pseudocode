@@ -1,0 +1,46 @@
+=================================================================
+Top
+=================================================================
+
+Determine the mileage of a driver's automobile
+
+=================================================================
+Refinement #1
+=================================================================
+
+Ask for distance travelled and gallons used
+
+Calculate miles per gallon
+
+Output the automobile's mileage
+
+=================================================================
+Refinement #2
+=================================================================
+
+Import Scanner
+
+Initialize Scanner
+Initialize average mileage
+Initialize counter
+Initialize userInput
+
+While the user does not input the sentinel value
+	Initialize trip
+	Prompt the user for distance travelled and increment counter
+
+	if user does not input sentinel value
+		Store distance travelled
+		Prompt the user for gallons used
+
+		if user does not input sentinel value
+			Store gallons used
+			Intialize and calculate this trip's mileage
+
+			Show user this trips' mileage
+
+			Sum up the mileage
+			Increase the counter
+
+Calculate average mileage
+Show user their average mileage 
