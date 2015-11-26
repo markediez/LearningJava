@@ -1,0 +1,20 @@
+======================================================================
+Top
+======================================================================
+
+// create a program to determine the largest integer entered out of 10
+
+======================================================================
+Refinement #1
+======================================================================
+// import scanner
+
+// initialize scanner, biggest int, input,and counter
+// prompt for integer
+// set biggest int to integer
+// while the user has not inputted 10 integers
+	// prompt for integer
+	// test to see if it is bigger than the current biggest
+	// add counter
+
+// display biggest integer

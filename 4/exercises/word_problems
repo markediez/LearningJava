@@ -1,10 +1,10 @@
 4.10
 if and while take in a conditional statement and executes its block
-	of code only if the condition is true
+    of code only if the condition is true
 
 they are different b/c while loops its block of code while the
-	condition is true and on the other hand, if only 
-	run its block of code once if it is true.
+    condition is true and on the other hand, if only 
+    run its block of code once if it is true.
 
 4.11
 The remainder is lost when an int divides an int in Java.
@@ -15,12 +15,12 @@ nested if statements and using a sentinel value in a while loop
 
 4.13
 Definite repetition with a control value should be used in
-	calculating the sum first 100 integers because we already know
-	the value.
+    calculating the sum first 100 integers because we already know
+    the value.
 
 Sentinel repetition with a sentinel value should be used in the
-	latter because we do not know how many integers the user wishes
-	to sum up.
+    latter because we do not know how many integers the user wishes
+    to sum up.
 
 4.14
 x++ - postincrementing increments after using the variable
@@ -29,7 +29,7 @@ x++ - postincrementing increments after using the variable
 4.15
 a - ; after the if statement is bad
 b - we cannot initilize and declare more than one variable in a 
-		single statement
+        single statement
 c - infinite loop
 d - missing closing brace
 
@@ -46,3 +46,149 @@ d - missing closing brace
 100
 Total is 385
 
+4.25
+****
+++++++++
+****
+++++++++
+****
+++++++++
+****
+++++++++
+****
+++++++++
+
+4.26
+****
+++++++++
+****
+++++++++
+****
+++++++++
+****
+++++++++
+****
+++++++++
+
+****
+++++++++
+****
+++++++++
+****
+++++++++
+****
+++++++++
+****
+++++++++
+
+****
+++++++++
+****
+++++++++
+****
+++++++++
+****
+++++++++
+****
+++++++++
+
+****
+++++++++
+****
+++++++++
+****
+++++++++
+****
+++++++++
+****
+++++++++
+
+****
+++++++++
+****
+++++++++
+****
+++++++++
+****
+++++++++
+****
+++++++++
+
+****
+++++++++
+****
+++++++++
+****
+++++++++
+****
+++++++++
+****
+++++++++
+
+****
+++++++++
+****
+++++++++
+****
+++++++++
+****
+++++++++
+****
+++++++++
+
+****
+++++++++
+****
+++++++++
+****
+++++++++
+****
+++++++++
+****
+++++++++
+
+****
+++++++++
+****
+++++++++
+****
+++++++++
+****
+++++++++
+****
+++++++++
+
+****
+++++++++
+****
+++++++++
+****
+++++++++
+****
+++++++++
+****
+++++++++
+
+****
+++++++++
+****
+++++++++
+****
+++++++++
+****
+++++++++
+****
+++++++++
+
+4.27
+x = 9, y = 11
+a. *****
+   $$$$$
+
+b. *****
+
+x = 11, y = 9
+a. #####
+   $$$$$
+
+4.28
