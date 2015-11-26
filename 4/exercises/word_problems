@@ -192,3 +192,44 @@ a. #####
    $$$$$
 
 4.28
+
+if(y==8)
+if(x==5)
+System.out.println("@@@@@");
+else
+System.out.println("#####");
+System.out.println("$$$$$");
+System.out.println("&&&&&");
+
+a
+if(y==8)
+	if(x==5)
+		System.out.println("@@@@@");
+	else
+		System.out.println("#####");
+
+System.out.println("$$$$$");
+System.out.println("&&&&&");
+
+b & c
+if(y==8)
+	if(x==5)
+		System.out.println("@@@@@");
+	else {
+		System.out.println("#####");
+		System.out.println("$$$$$");
+		System.out.println("&&&&&");
+	}
+
+d
+if(y==8) {
+	if(x==5)
+		System.out.println("@@@@@");
+}
+else {
+		System.out.println("#####");
+		System.out.println("$$$$$");
+		System.out.println("&&&&&");
+}
+
+
