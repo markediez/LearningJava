@@ -11,6 +11,11 @@ For Loop
     }
 
 do ... while
+    - checks the condition after running the code once
+    - code always runs at least once
+    do {
+        // code
+    } while(/*condition*/)
 
 Scope
     - local var. only exist in the method that makes it
@@ -33,4 +38,23 @@ BigDecimal
     - Precise monetary calculations should not be handled with
       double or float
         o they are not precise
+
+Switch Statements
+    - is like a cleaner looking else if
+    
+    // if value == val1 do that block of code
+    switch(value) {
+        case val1:
+            // code
+            break;  // breaks away from switch statement, if forgotten, it
+        case val2:      // runs val2 code as well
+            // code
+            break;
+        default:    // runs if value != val1 or val2
+            break;
+    }
+
+    - val1, val2, ... can be integer constants, char constants, or 
+                            enum constants, or even constant variables
+                            (introduced ch 6)       (introduced ch 10)
 

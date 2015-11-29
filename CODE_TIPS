@@ -10,3 +10,7 @@ Top down stepwise-refinement
                         v
         o           .........
         o do this until you pretty much have the program in pseudocode
+
+End of File Indicator
+    Ctrl z for windows
+    Ctrl d for the rest
