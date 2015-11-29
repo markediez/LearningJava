@@ -1,0 +1,36 @@
+While Loop
+    // initialize
+
+    // while loop condition
+        // code
+        // condition changer
+
+For Loop
+    for(initial; condition; increment) {
+        // code
+    }
+
+do ... while
+
+Scope
+    - local var. only exist in the method that makes it
+    - for initialization var. can only exist in the for loop
+
+Infinite Loops
+    - Be sure there's a way out of the loop statements
+
+Formatting with Field Widths and Justification
+    - %20s
+        o default right justified, for left %-20s
+        o String width size is 20 characters minimum
+
+static method
+    - remember we can do Math.pow(...) because pow is a static method
+        o static method means we can use it without having to 
+                create an instance of Math
+
+BigDecimal
+    - Precise monetary calculations should not be handled with
+      double or float
+        o they are not precise
+

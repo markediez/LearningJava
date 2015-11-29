@@ -1,11 +1,12 @@
 PLACEHOLDER
-%s  - string
+%s  - string *** %ms to specify minimum char length. -m for left justify
 %c  - char
 %n  - like \n
 %d  - int
-%f  - float  *** %m.nf to specify how many numbers to show
+%f  - float  *** %,m.nf to specify how many numbers to show
                         %.2f will show the real number with 2 dec. points
                         even rounds it
+                        the , indicates to format it like 1,230.41
 
 ESCAPE SEQUENCES
 \n  - newline, like the an enter button
