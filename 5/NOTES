@@ -66,3 +66,21 @@ break and continue
           statements
     - continue
         o causes to immediate proceed to the next iteration of the loop
+
+Logical Operators
+    - conditional AND (&&)
+        o runs the code of all conditions in the statement is true
+            if (<this condition is true> && <also this statement> && ...)
+    - conditional OR (||)
+        o runs the code if at least one condition in the statement is true
+            if(<this condition is true> || <OR this statement> || ...)
+    - conditional statements are short-circuit evaluations 
+        o they end as soon as the condition is met / not met
+    
+    - boolean logical AND (&), boolean logical OR(|)
+        o works the same as their conditional counterpart BUT
+            they do not perform short-circuit evaluation
+    - logical NOT (!)
+        o reverses the boolean statement 
+
+

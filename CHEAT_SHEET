@@ -29,6 +29,15 @@ LIBRARIES
 java.util.Scanner		- Scanner, used for taking input
 GUI LIBRARIES @ GUI_NOTES
 
+LOGICAL OPERATORS
+	conditional
+		&&	~ AND - short circuit check condition, runs if all true
+		||	~ OR  - short-circuit check condition, runs if at least one true
+	boolean logical
+		^	~ XOR - always run all condition, run IFF ONLY ONE IS TRUE
+		&	~ AND - always run all condition, run if at least one true
+		|	~ OR  - always run all condition, runs if at least one true
+		!	~ NOT - logical NOT, unary, reverses the boolean statement (!true is false)
 
 OPERATOR PRECEDENCE
 ++	--
@@ -37,6 +46,11 @@ OPERATOR PRECEDENCE
 +	-
 <	<=	>	>=
 ==	!=
+&
+^
+|
+&&
+||
 ?:
 =	+=	-=	*=	/=	%=
 
