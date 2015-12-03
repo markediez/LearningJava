@@ -17,3 +17,7 @@ CONTROL STATEMENTS
     while   - repeats a block of code zero or more times
     for     - repeats a block of code zero or more times
     do...while - repeats a block of code one or more times
+
+???
+    break       - breaks away from a loop or switch statement
+    continue    - proceeds to the next iteration of a loop

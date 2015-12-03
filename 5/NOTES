@@ -58,3 +58,11 @@ Switch Statements
                             enum constants, or even constant variables
                             (introduced ch 6)       (introduced ch 10)
 
+
+break and continue
+    - used to alter the flow of control
+    - break
+        o causes immediate exit from loop or switch
+          statements
+    - continue
+        o causes to immediate proceed to the next iteration of the loop
