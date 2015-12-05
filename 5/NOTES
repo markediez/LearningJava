@@ -84,4 +84,15 @@ Logical Operators
         o reverses the boolean statement 
 
 Structured Programming Summary
-    -
+    - Programmers must design before developing
+        just as Architects design building prior to their construction
+    - Java control statements are single-entry / single exit
+    - Rules for forming structure programs
+        o Begin with a simple diagram [entry] -> <action state> -> [exit]
+        o Any action state can be repleced by two action states in sequence
+        o Any action state can e replaced by any control statement
+        o Repeat the previous 2 as necessary
+    - Three Forms of Control
+        o sequence      - execute statements in order
+        o selection     - if, if-else, switch
+        o repetition    - while, do...while, for , "enhanced" for
