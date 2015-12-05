@@ -18,3 +18,8 @@ javax.swing.JPanel
 javax.swing.JFrame
 	- holds JPanels and shows it in the screen
 	- the blank canvas
+
+- draw line via drawLine from Graphics
+
+CH 5
+- drawRect and drawOval from Graphics
