@@ -1,0 +1,38 @@
+5.5 
+4 basic elements of counter-controlled repetition
+- counter variable
+- number of times to loop predefined
+- increment at the end of the loop
+- condition of the loop
+
+5.6
+while
+	o can increment as needed
+	o must initialize prior to the loop
+	o more effective as a sentinel-controlled repetition
+for
+	o initialization, condition, and increment in one line
+	o increments automatically at the end of the loop
+	o more effective as a counter-controlled repetition
+both
+	o loops the code while the condition is true
+
+5.7
+prompting for information such as entering x grades. By doing a do-while loop,
+	I won't have to repeat the code prior to a while / for loop and within the loop.
+
+5.8
+break - breaks away from the control statement (loops / switch)
+continue - proceeds the the next iteration of a loop statement
+
+5.9
+a. should be "for", not "For"
+b. at least case 0: needs a break; after the prior to introducing case 1
+c. the for loop increment should be -= not +=
+d. the while condition should either be <= 100, or < 102 . Not < 100.
+	Also, it should be "while" not "While"
+
+5.10
+prints "@@@@@" ten times (new line after the 5th '@')
+
+
