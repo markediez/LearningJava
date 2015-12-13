@@ -1,0 +1,40 @@
+Divide and Conquer with Classes and Methods
+	- divide and conquer approach
+		o build a program with small, simple pieces
+	- software reusability
+		o use existing classes and mehtods to create new programs
+
+static
+	- methods and variables in a class that can be used without creating
+		an instance of the class e.g. Math.abs(-3) and Math.PI can be used without
+		first indicating Math m = new Math();
+		<ClassName>.<staticMethod>(arguments);
+		<ClassName>.<staticVar>
+
+	- When using a static var, you share a the var from the class;
+		you are not creating your own copy in the program
+
+final
+	- makes variables constant
+
+why have public static void main(String[] args) ?
+	- java <ClassName> argument1 argument2 ...
+	- then you can access the "array" for the arguments
+
+methods
+	- public - seen by all
+	- static - can be called by all
+			 - also, required if another static class (e.g. main)
+			 		is calling the method b/c it would not make
+			 		sense for a non-static method to be used
+			 		when another class attempts to use the
+			 		static method
+	- methodName(parameters)
+		o can have more than 1 parameter, 
+		o each parameter must have a var type,
+		o when called(used), arguments must be consistent with the parameters.
+
+		e.g. to use public static int max(double a, String n, boolean b) { ... }
+		the class calling it must say max(someDouble, someString, someBoolean)
+						it cannot be  max(someString, someDouble, someBoolean)
+	
