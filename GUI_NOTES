@@ -23,3 +23,11 @@ javax.swing.JFrame
 
 CH 5
 - drawRect and drawOval from Graphics
+
+CH 6
+- colors and filled shapes
+    o color based on rgb components, each with a value between 0 and 255
+    o java.awt.Colors - contains predefined colors
+        ~ can have a custom color via constructor 
+                Color(int r, int g, int )
+    o fillRect and fillOval

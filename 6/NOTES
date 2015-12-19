@@ -37,4 +37,43 @@ methods
 		e.g. to use public static int max(double a, String n, boolean b) { ... }
 		the class calling it must say max(someDouble, someString, someBoolean)
 						it cannot be  max(someString, someDouble, someBoolean)
+ 
+Life Cycle of a Method
+    [-] called
+    [-] return address of caller pushed to "method-call stack"
+    [-] local var of method is pushed to "stack frame" of 
+            the method-call stack
+    [-] on return, the return address and stack frame is popped
+    [-] garbage collector collects unused data
+    ** StackOverflow if there's too much data in method-call stack **
+
+Argument Promotion and Casting
+	[-] values are promoted implicitly on method call
+	[-] values cannot demote implicitly, must cast (<dataType>)
+	[-] basically, if data is lost, must specify
+	** cannot promote to a char **
+
+Java API Packages
+	- API - predefined classes
+	- packages - a group of related classes
+	- Overview at docs.oracle.com/javase/7/docs/api/overview-summary.html
+
+Secure Random
+	- uses nondeterministic random numbers to avoid security breach
+	- decreases performance in exchange for security
+
+enum
+	- declares a set of constants represented by identifiers
+
+Scope
+	- the portion of which an entity(method / variables) can be accessed
+		o scope of a parameter is the method that it reigns in
+		o scope of a local var is the block of the method it exists in
+		o scope of a local var in a for loop is that for loop
+		o scope of a method or field is the class
+
+Method Overloading
+	- methods with the same name can exist in the same class
+		iff the parameters are different
+	- Java will know which one to use based on the arg given by caller
 	
