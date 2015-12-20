@@ -2,7 +2,7 @@ Divide and Conquer with Classes and Methods
 	- divide and conquer approach
 		o build a program with small, simple pieces
 	- software reusability
-		o use existing classes and mehtods to create new programs
+		o use existing classes and methods to create new programs
 
 static
 	- methods and variables in a class that can be used without creating

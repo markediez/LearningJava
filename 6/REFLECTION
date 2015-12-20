@@ -1,0 +1,6 @@
+It was great to learn the "life cycle" of a method.
+    Call -> Method-call stack -> method -> return
+
+Also, it was nice to know about SecureRandom as a nondeterministic
+    way to generate random numbers. I wonder how much of a performance
+    dip it generates.
