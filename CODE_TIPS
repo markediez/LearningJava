@@ -18,3 +18,10 @@ End of File Indicator
 Methods
     Name should express the task effectively
     performs ONE well-defined task
+    Life Cycle
+        [-] called
+        [-] return address of caller pushed to "method-call stack"
+        [-] local var of method is pushed to "stack frame" of 
+                the method-call stack
+        [-] on return, the return address and stack frame is popped
+        [-] garbage collector collects unused data

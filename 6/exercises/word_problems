@@ -1,0 +1,45 @@
+6.7
+a. 7.5
+b. 7.0
+c. 0
+d. 0
+e. 6.4
+f. -6.0
+g. -14
+
+6.11
+a. choosing numbers "at random" == using SecureRandom to choose a number
+                                    without special reason
+b. Includes luck and mystery in a game
+c. to get the range of numbers we want
+d. has a potential to predict and prevent an unwanted future
+
+6.12
+a. n = rng.nextDouble() + 1;
+b. n = rng.nextInt(100) + 1;
+c. n = rng.nextInt(10);
+d. n = rng.nextInt(1113) + 1000;
+e. n = rng.nextInt(2) - 1;
+f. n = rng.nextInt(15) - 3;
+
+6.13
+a. n = 2*(rng.nextInt(5) + 1);
+b. n = 2*rng.nextInt(9) + 1;
+c. n = 2*(2*rng.nextInt(9) + 1) + 4;
+
+6.14
+public int (int base, int exponent) {
+    int product = (exponent == 0) ? 1 : base;
+
+    for(int i = 2; i <= exponent; i++) {
+        product *= base;
+    }
+
+    return product;
+}
+
+6.15
+public static double hypotenuse(double a, double b) {
+    double c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+    return c;
+}
