@@ -22,6 +22,7 @@ why have public static void main(String[] args) ?
 	- then you can access the "array" for the arguments
 
 methods
+	- must be made inside the clasa and outside another method
 	- public - seen by all
 	- static - can be called by all
 			 - also, required if another static class (e.g. main)
@@ -37,4 +38,18 @@ methods
 		e.g. to use public static int max(double a, String n, boolean b) { ... }
 		the class calling it must say max(someDouble, someString, someBoolean)
 						it cannot be  max(someString, someDouble, someBoolean)
+
+	- if calling a method from another class, e.g. Math.
+		o <ClassName>.<methodName>(<arguments>)
+		o <ClassName>.<varName>
 	
+
+String Concatenation
+	- adding/appending strings
+	- discards trailing 0s when toString is used
+	- encapsulate math when concatenating strings
+
+data structure
+	- collection of related data items
+		o stack
+			-LIFO (last in first out)
