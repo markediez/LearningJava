@@ -1,6 +1,17 @@
+In this chapter I learned:
+	o the use of args[] when declaring main. 
+	o SecureRandom for extra security in randomly generating numbers
+	o life cycle of a method and the existence of 
+		a method-call stack with a stackframe which is only possible
+		through the stack data structure
+	o GUI-wise, creating filled shapes
+
 It was great to learn the "life cycle" of a method.
     Call -> Method-call stack -> method -> return
 
-Also, it was nice to know about SecureRandom as a nondeterministic
-    way to generate random numbers. I wonder how much of a performance
-    dip it generates.
+    Also, it was nice to know about SecureRandom as a nondeterministic
+        way to generate random numbers. I wonder how much of a performance
+	    dip it generates.
+
+So far, I have learned something new in every chapter. I am not regretting
+	this.
